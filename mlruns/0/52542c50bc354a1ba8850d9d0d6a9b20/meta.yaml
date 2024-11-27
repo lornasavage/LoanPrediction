@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/blank-app-1/mlruns/0/52542c50bc354a1ba8850d9d0d6a9b20/artifacts
+end_time: 1732376257032
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 52542c50bc354a1ba8850d9d0d6a9b20
+run_name: worried-dog-255
+run_uuid: 52542c50bc354a1ba8850d9d0d6a9b20
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732376256914
+status: 4
+tags: []
+user_id: vscode

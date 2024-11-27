@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/blank-app-1/mlruns/0/57059f0c56fe4950891886b0425a5239/artifacts
+end_time: 1732545332219
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 57059f0c56fe4950891886b0425a5239
+run_name: dazzling-quail-640
+run_uuid: 57059f0c56fe4950891886b0425a5239
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732545332016
+status: 4
+tags: []
+user_id: vscode

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/blank-app-1/mlruns/0/10b8c569998a464999cdddf7488931ea/artifacts
+end_time: 1732378025961
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 10b8c569998a464999cdddf7488931ea
+run_name: mercurial-bear-942
+run_uuid: 10b8c569998a464999cdddf7488931ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732378025765
+status: 4
+tags: []
+user_id: vscode

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/blank-app-1/mlruns/0/0a2b170fc2504490818a95281b79e18a/artifacts
+end_time: 1732377917778
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0a2b170fc2504490818a95281b79e18a
+run_name: glamorous-gnu-319
+run_uuid: 0a2b170fc2504490818a95281b79e18a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732377917583
+status: 4
+tags: []
+user_id: vscode

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/blank-app-1/mlruns/0/e65d4f1722b14103ae970b3c0793ca24/artifacts
+end_time: 1732376191237
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e65d4f1722b14103ae970b3c0793ca24
+run_name: dapper-squid-637
+run_uuid: e65d4f1722b14103ae970b3c0793ca24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732376191219
+status: 4
+tags: []
+user_id: vscode
