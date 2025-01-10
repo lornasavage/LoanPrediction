@@ -295,5 +295,5 @@ if app_page == 'Deployment 🚀':
 
 
 if app_page == 'Conclusion':
-    st.header('In conclusion...')
+    st.header('Conclusion:')
     
