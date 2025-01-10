@@ -28,7 +28,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.title("🎈 FINAL PROJECT")
+st.header("Loan Prediction")
 
 try:
     df = pd.read_csv("credit.csv")
@@ -85,7 +85,7 @@ if app_page == 'Business Case Presentation and Data Description':
 
 
 if app_page == 'Data Visualization':
-    st.header('Graphs and stuff')
+    #'Graphs and stuff'
     data = {'credit_history': ['critical', 'poor', 'good', 'very good', 'perfect']}
     df2 = pd.DataFrame(data)
     from sklearn.preprocessing import LabelEncoder
@@ -259,23 +259,23 @@ if app_page == 'Deployment 🚀':
     
     # Model Selection
     select_ds = "Loan Default Prediction 🏦"
-    #id = st.text_input('ID Model', '00ffae4993044a5d9cb369a46dbc1e01')  # Update your MLflow ID if necessary
+    #id = st.text_input('ID Model', '00ffae4993044a5d9cb369a46dbc1e01')  
     
     # Load the model from MLflow
     logged_model = f'./mlruns/0/{id}/artifacts/top_model_v1'
     loaded_model = mlflow.pyfunc.load_model(logged_model)
 
     # Load dataset (for feature names and structure)
-    df = pd.read_csv("credit.csv")  # Load your dataset
+    df = pd.read_csv("credit.csv") 
     
-    # Select columns for deployment (ensure you match the trained model's features)
+    # Select columns for deployment 
     deploy_df = df.drop(columns=['default'], axis=1)  # Drop target variable
     feature_columns = deploy_df.columns  # Get feature names
 
     # Create interactive inputs for deployment
     input_values = {}
     for col in feature_columns:
-        default_value = float(df[col].mean())  # Use the column's mean value as default
+        default_value = float(df[col].mean())  
         input_values[col] = st.number_input(f"Enter value for {col}", value=default_value)
 
     # Create DataFrame from input values
