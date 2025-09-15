@@ -297,3 +297,34 @@ if app_page == 'Deployment 🚀':
 if app_page == 'Conclusion':
     st.header('Conclusion:')
     
+    st.write("""
+    This project was focused on predicting whether a loan applicant would default on their loan. We looked at several key factors, like their checking and savings balances, credit history, and employment duration. By using machine learning models, we aimed to help financial institutions make smarter decisions about who should get a loan.
+
+    **Key Insights:**
+    - Features like savings balance and what percentage of loan makes up their ability to repay a loan.
+    - We used different models (like KNN, Decision Tree) to predict the likelihood of loan default. These models performed well, but there’s always room for improvement.
+    - **KNN** achieved an accuracy of **64.67%**.
+    - **Decision Tree** achieved an accuracy of **68%**.
+
+    **Why This Matters:**
+    Machine learning can make loan decisions more accurate. By analyzing data from applicants, we can help banks and lenders:
+    - Better assess the risk of lending to someone.
+    - Set up better repayment plans.
+    - Avoid defaults.
+
+    This leads to better outcomes for both lenders and borrowers.
+
+    **Looking Ahead:**
+    While the models worked well, there are always ways to make them better:
+    - **Add More Data**: Including more factors like a person’s loan repayment history could improve predictions.
+    - **Use More Advanced Models**: Trying out more complex algorithms might make our predictions even more accurate.
+    - **Real-World Applications**: We could use the models to help banks flag at-risk borrowers earlier.
+
+    This project shows how machine learning can improve loan decisions. With more data and better models, we can make loan approvals smarter, faster, and fairer for everyone.
+    
+    Thank you for your time and attention! 😀
+    """)
+
+
+
+    
